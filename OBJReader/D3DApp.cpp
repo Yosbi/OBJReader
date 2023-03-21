@@ -525,7 +525,7 @@ void D3DApp::LoadTriangles()
 		float aspectRatio = m_nClientWidth / m_nClientHeight;
 
 		// Load the OBJ
-		m_objLoader.LoadOBJ(GetAssetFullPath(L"Chinesse.obj").c_str(), true);
+		m_objLoader.LoadOBJ(GetAssetFullPath(L"maya.obj").c_str(), true);
 
 		// Upload vertex buffer data.
 		ComPtr<ID3D12Resource> intermediateVertexBuffer;
